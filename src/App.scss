@@ -1,0 +1,10 @@
+$toto: red;
+.red {
+  background-color: $toto;
+  &:hover {
+    background-color: green;
+  }
+  &:disabled {
+    background-color: grey;
+  }
+}
